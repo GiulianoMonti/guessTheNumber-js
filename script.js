@@ -103,12 +103,12 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').style.width = '15rem';
 });
 
-document.querySelector('.auto').addEventListener('click', function () {
-  console.log(secretNumber);
-  let firstNum = Math.trunc(Math.random() * 20) + 1;
-  while (firstNum !== secretNumber) {
-    console.log(secretNumber);
-    document.querySelector('.guess').value = firstNum;
-    firstNum = Math.trunc(Math.random() * 20) + 1;
-  }
+// document.querySelector('.auto').addEventListener('click', function () {    learning to do this later
+//   console.log(secretNumber);
+//   let firstNum = Math.trunc(Math.random() * 20) + 1;
+//   while (firstNum !== secretNumber) {
+//     console.log(secretNumber);
+//     document.querySelector('.guess').value = firstNum;
+//     firstNum = Math.trunc(Math.random() * 20) + 1;
+//   }
 });
